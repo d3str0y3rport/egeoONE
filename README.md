@@ -1,7 +1,18 @@
 # egeoONE
 Example library to use the tools of the eGEO ONE hardware platform
 
+JSON Structure
+{
+  "operation": "Desired operation(String)",
+  "d1": "data1 (16bit Unsigned integer)",
+  "d2": "data2 (16bit Unsigned integer)",
+  "d3": "data3 (Double precision floating point DBL)",
+  "msgl1": (String 16 Characters)
+  "msgl2": (String 16 Characters) 
+}
 
+
+OPERATIONS:
 
 Get Meter ID: "getID"
 
