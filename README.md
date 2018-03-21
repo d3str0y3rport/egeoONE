@@ -11,6 +11,8 @@ JSON Structure
   "msgl2": (String 16 Characters) 
 }
 
+RESPONSE:
+{"value":"Response(integer, double or String)"}
 
 OPERATIONS:
 
