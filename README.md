@@ -3,55 +3,55 @@ Example library to use the tools of the eGEO ONE hardware platform
 
 
 
-Solictar ID: "getID"
+Request Meter ID: "getID"
 
-//Solictar Temperatura: "getTemp"
+Request Temperature: "getTemp"
      
-//Solictar Potencia Fase A: "getPowerA"
+Request Phase A Power: "getPowerA"
 
-//Solictar Potencia Fase B: "Open getPowerB"
+Request Phase B Power: "Open getPowerB"
 
-//Solictar Potencia Fase C:  "getPowerC"
+Request Phase C Power:  "getPowerC"
 
-//Solictar Potencia Total: "getPowerT"
+Request Total Power: "getPowerT"
 
-//Solictar Potencia Reactiva Fase A: "getQPowerA"
+Request Phase A Reactive Power: "getQPowerA"
 
-//Solictar Potencia Reactiva Fase B: "getQPowerB"
+Request Phase B Reactive Power: "getQPowerB"
 
-//Solictar Potencia Reactiva Fase C: "getQPowerC"
+Request Phase C Reactive Power: "getQPowerC"
 
-//Solictar Potencia Reactiva Total: "getQPowerT"
+Request Total Reactive Power: "getQPowerT"
 
-//Solictar Potencia Harmonica Fundamental Fase A: "getPmeanAF"
+Requesta Fundamental Harmonic Power of Phase A: "getPmeanAF"
 
-//Solictar Potencia Harmonica Fundamental Fase B: "getPmeanBF"
+Requesta Fundamental Harmonic Power of Phase B: "getPmeanBF"
 
-//Solictar Potencia Fundamental Fase C: "getPmeanCF"
+Requesta Fundamental Harmonic Power of Phase C: "getPmeanCF"
       
-//Solictar Potencia Harmonica Fundamental Total: "getPmeanTF"
+Requesta Total Fundamental Harmonic Power: "getPmeanTF"
 
-//Solictar Potencia Harmonica Fase A : "getPmeanAH"
+Request Harmonic Power Phase A: "getPmeanAH"
 
-//Solictar Potencia  Harmonica Fase B: "getPmeanBH"
+Request Harmonic Power Phase B: "getPmeanBH"
 
-//Solictar Potencia Harmonica Fase C: "getPmeanCH"
+Request Harmonic Power Phase C: "getPmeanCH"
 
-//Solictar Potencia Harmonica Total: "getPmeanTH"
+Request Total Harmonic Power: "getPmeanTH"
 
-//Solictar Voltaje RMS Fase A: "getVoltageA"
+Request RMS Voltage Phase A: "getVoltageA"
 
-//Solictar Corriente RMS Fase A: "getCurrentA"
+Request RMS Current Phase A: "getCurrentA"
 
-//Solictar Voltaje RMS Fase B: "getVoltageB"
+Request RMS Voltage Phase B: "getVoltageB"
 
-//Solictar Corriente RMS Fase B: "getCurrentB"
+Request RMS Current Phase B: "getCurrentB"
 
-//Solictar Voltaje RMS Fase C: "getVoltageC"
+Request RMS Voltage Phase C: "getVoltageC"
 
-//Solictar Corriente RMS Fase C: "getCurrentC"
+Request RMS Current Phase C: "getCurrentC"
      
-//Solictar Corriente RMS Fase N: "getCurrentN"
+Request RMS Current Phase N: "getCurrentN"
 
 //Solictar Frecuencia: "getFrequency"
 
