@@ -98,6 +98,6 @@ Set Date: {"operation":"setDate", "d1":UNIX date}
       
 Set Connection State in Display: {"operation":"setOnline"}
 
-Send Message Via Display(5Sec): {"operation": "setDisplay"}
+Send Message Via Display(5Sec): {"operation": "setDisplay", "msgl1": (Line 1 String 16 Characters) "msgl2": (Line 2 String 16 Characters)}
       
 Reboot Metering Chipset: {"operation":"reboot"} 
