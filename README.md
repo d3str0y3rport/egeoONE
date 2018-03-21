@@ -14,90 +14,90 @@ JSON Structure
 
 OPERATIONS:
 
-Get Meter ID: "getID"
+Get Meter ID: {"operation":"getID"}
 
-Get Temperature: "getTemp"
+Get Temperature: {"operation":"getTemp"}
      
-Get Phase A Power: "getPowerA"
+Get Phase A Power: {"operation":"getPowerA"}
 
-Get Phase B Power: "Open getPowerB"
+Get Phase B Power: {"operation":"Open getPowerB"}
 
-Get Phase C Power:  "getPowerC"
+Get Phase C Power:  {"operation":"getPowerC"}
 
-Get Total Power: "getPowerT"
+Get Total Power: {"operation":"getPowerT"}
 
-Get Phase A Reactive Power: "getQPowerA"
+Get Phase A Reactive Power: {"operation":"getQPowerA"}
 
-Get Phase B Reactive Power: "getQPowerB"
+Get Phase B Reactive Power: {"operation":"getQPowerB"}
 
-Get Phase C Reactive Power: "getQPowerC"
+Get Phase C Reactive Power: {"operation":"getQPowerC"}
 
-Get Total Reactive Power: "getQPowerT"
+Get Total Reactive Power: {"operation":"getQPowerT"}
 
-Get Fundamental Harmonic Power of Phase A: "getPmeanAF"
+Get Fundamental Harmonic Power of Phase A: {"operation":"getPmeanAF"}
 
-Get Fundamental Harmonic Power of Phase B: "getPmeanBF"
+Get Fundamental Harmonic Power of Phase B: {"operation":"getPmeanBF"}
 
-Get Fundamental Harmonic Power of Phase C: "getPmeanCF"
+Get Fundamental Harmonic Power of Phase C: {"operation":"getPmeanCF"}
       
-Get Total Fundamental Harmonic Power: "getPmeanTF"
+Get Total Fundamental Harmonic Power: {"operation":"getPmeanTF"}
 
-Get Harmonic Power Phase A: "getPmeanAH"
+Get Harmonic Power Phase A: {"operation":"getPmeanAH"}
 
-Get Harmonic Power Phase B: "getPmeanBH"
+Get Harmonic Power Phase B: {"operation":"getPmeanBH"}
 
-Get Harmonic Power Phase C: "getPmeanCH"
+Get Harmonic Power Phase C: {"operation":"getPmeanCH"}
 
-Get Total Harmonic Power: "getPmeanTH"
+Get Total Harmonic Power: {"operation":"getPmeanTH"}
 
-Get RMS Voltage Phase A: "getVoltageA"
+Get RMS Voltage Phase A: {"operation":"getVoltageA"}
 
-Get RMS Current Phase A: "getCurrentA"
+Get RMS Current Phase A: {"operation":"getCurrentA"}
 
-Get RMS Voltage Phase B: "getVoltageB"
+Get RMS Voltage Phase B: {"operation":"getVoltageB"}
 
-Get RMS Current Phase B: "getCurrentB"
+Get RMS Current Phase B: {"operation":"getCurrentB"}
 
-Get RMS Voltage Phase C: "getVoltageC"
+Get RMS Voltage Phase C: {"operation":"getVoltageC"}
 
-Get RMS Current Phase C: "getCurrentC"
+Get RMS Current Phase C: {"operation":"getCurrentC"}
      
-Get RMS Current Phase N: "getCurrentN"
+Get RMS Current Phase N: {"operation":"getCurrentN"}
 
-Get Frequency: "getFrequency"
+Get Frequency: {"operation":"getFrequency"}
 
-Get Total Power Factor: "getPFT"
+Get Total Power Factor: {"operation":"getPFT"}
 
-Get Phase A Power Factor: "getPFA"
+Get Phase A Power Factor: {"operation":"getPFA"}
 
-Get Phase B Power Factor: "getPFB"
+Get Phase B Power Factor: {"operation":"getPFB"}
 
-Get Phase C Power Factor:: "getPFC"
+Get Phase C Power Factor:: {"operation":"getPFC"}
 
-Get State of Phase A Relay: "getRelayA"
+Get State of Phase A Relay: {"operation":"getRelayA"}
 
-Disconnect Phase A Relay: "disconnectPowerA"
+Disconnect Phase A Relay: {"operation":"disconnectPowerA"}
 
-Connect Phase A Relay: "connectPowerA"
+Connect Phase A Relay: {"operation":"connectPowerA"}
 
-Get State of Phase B&C Relay: "getRelayBC"
+Get State of Phase B&C Relay: {"operation":"getRelayBC"}
 
-Disconnect Phase B&C Relay: "disconnectPowerBC"
+Disconnect Phase B&C Relay: {"operation":"disconnectPowerBC"}
 
-Connect Phase B&C Relay: "connectPowerBC"
+Connect Phase B&C Relay: {"operation":"connectPowerBC"}
 
-Get Acumulated Active Energy: "getTDAE"
+Get Acumulated Active Energy: {"operation":"getTDAE"}
 
-Get Acumulated Inverse Active Energy: "getTIAE"
+Get Acumulated Inverse Active Energy: {"operation":"getTIAE"}
       
-Get Acumulated Reactive Energy: "getTDRE"
+Get Acumulated Reactive Energy: {"operation":"getTDRE"}
         
-Get Acumulated Inverse Reactive Energy: "getTIRE"
+Get Acumulated Inverse Reactive Energy: {"operation":"getTIRE"}
 
-Set Date(in UNIX): "setDate"
+Set Date: {"operation":"setDate", "d1":UNIX date}
       
-Set Connection State in Display: "setOnline"
+Set Connection State in Display: {"operation":"setOnline"}
 
-Send Message Via Display(5Sec): "setDisplay"
+Send Message Via Display(5Sec): {"operation": "setDisplay"}
       
-Reboot Metering Chipset: "reboot"
+Reboot Metering Chipset: {"operation":"reboot"} 
