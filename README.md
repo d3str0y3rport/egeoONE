@@ -16,89 +16,89 @@ RESPONSE:
 
 OPERATIONS:
 
-Get Meter ID: {"operation":"getID"}
+Get Meter ID: {"operation": "getID"}
 
-Get Temperature: {"operation":"getTemp"}
+Get Temperature: {"operation": "getTemp"}
      
-Get Phase A Power: {"operation":"getPowerA"}
+Get Phase A Power: {"operation": "getPowerA"}
 
-Get Phase B Power: {"operation":"Open getPowerB"}
+Get Phase B Power: {"operation": "getPowerB"}
 
-Get Phase C Power:  {"operation":"getPowerC"}
+Get Phase C Power:  {"operation": "getPowerC"}
 
-Get Total Power: {"operation":"getPowerT"}
+Get Total Power: {"operation": "getPowerT"}
 
-Get Phase A Reactive Power: {"operation":"getQPowerA"}
+Get Phase A Reactive Power: {"operation": "getQPowerA"}
 
-Get Phase B Reactive Power: {"operation":"getQPowerB"}
+Get Phase B Reactive Power: {"operation": "getQPowerB"}
 
-Get Phase C Reactive Power: {"operation":"getQPowerC"}
+Get Phase C Reactive Power: {"operation": "getQPowerC"}
 
-Get Total Reactive Power: {"operation":"getQPowerT"}
+Get Total Reactive Power: {"operation": "getQPowerT"}
 
-Get Fundamental Harmonic Power of Phase A: {"operation":"getPmeanAF"}
+Get Fundamental Harmonic Power of Phase A: {"operation": "getPmeanAF"}
 
-Get Fundamental Harmonic Power of Phase B: {"operation":"getPmeanBF"}
+Get Fundamental Harmonic Power of Phase B: {"operation": "getPmeanBF"}
 
-Get Fundamental Harmonic Power of Phase C: {"operation":"getPmeanCF"}
+Get Fundamental Harmonic Power of Phase C: {"operation": "getPmeanCF"}
       
-Get Total Fundamental Harmonic Power: {"operation":"getPmeanTF"}
+Get Total Fundamental Harmonic Power: {"operation": "getPmeanTF"}
 
-Get Harmonic Power Phase A: {"operation":"getPmeanAH"}
+Get Harmonic Power Phase A: {"operation": "getPmeanAH"}
 
-Get Harmonic Power Phase B: {"operation":"getPmeanBH"}
+Get Harmonic Power Phase B: {"operation": "getPmeanBH"}
 
-Get Harmonic Power Phase C: {"operation":"getPmeanCH"}
+Get Harmonic Power Phase C: {"operation": "getPmeanCH"}
 
-Get Total Harmonic Power: {"operation":"getPmeanTH"}
+Get Total Harmonic Power: {"operation": "getPmeanTH"}
 
-Get RMS Voltage Phase A: {"operation":"getVoltageA"}
+Get RMS Voltage Phase A: {"operation": "getVoltageA"}
 
-Get RMS Current Phase A: {"operation":"getCurrentA"}
+Get RMS Current Phase A: {"operation": "getCurrentA"}
 
-Get RMS Voltage Phase B: {"operation":"getVoltageB"}
+Get RMS Voltage Phase B: {"operation": "getVoltageB"}
 
-Get RMS Current Phase B: {"operation":"getCurrentB"}
+Get RMS Current Phase B: {"operation": "getCurrentB"}
 
-Get RMS Voltage Phase C: {"operation":"getVoltageC"}
+Get RMS Voltage Phase C: {"operation": "getVoltageC"}
 
-Get RMS Current Phase C: {"operation":"getCurrentC"}
+Get RMS Current Phase C: {"operation": "getCurrentC"}
      
 Get RMS Current Phase N: {"operation":"getCurrentN"}
 
-Get Frequency: {"operation":"getFrequency"}
+Get Frequency: {"operation": "getFrequency"}
 
-Get Total Power Factor: {"operation":"getPFT"}
+Get Total Power Factor: {"operation": "getPFT"}
 
-Get Phase A Power Factor: {"operation":"getPFA"}
+Get Phase A Power Factor: {"operation": "getPFA"}
 
-Get Phase B Power Factor: {"operation":"getPFB"}
+Get Phase B Power Factor: {"operation": "getPFB"}
 
-Get Phase C Power Factor:: {"operation":"getPFC"}
+Get Phase C Power Factor:: {"operation": "getPFC"}
 
-Get State of Phase A Relay: {"operation":"getRelayA"}
+Get State of Phase A Relay: {"operation": "getRelayA"}
 
-Disconnect Phase A Relay: {"operation":"disconnectPowerA"}
+Disconnect Phase A Relay: {"operation": "disconnectPowerA"}
 
-Connect Phase A Relay: {"operation":"connectPowerA"}
+Connect Phase A Relay: {"operation": "connectPowerA"}
 
-Get State of Phase B&C Relay: {"operation":"getRelayBC"}
+Get State of Phase B&C Relay: {"operation": "getRelayBC"}
 
-Disconnect Phase B&C Relay: {"operation":"disconnectPowerBC"}
+Disconnect Phase B&C Relay: {"operation": "disconnectPowerBC"}
 
-Connect Phase B&C Relay: {"operation":"connectPowerBC"}
+Connect Phase B&C Relay: {"operation": "connectPowerBC"}
 
-Get Acumulated Active Energy: {"operation":"getTDAE"}
+Get Acumulated Active Energy: {"operation": "getTDAE"}
 
-Get Acumulated Inverse Active Energy: {"operation":"getTIAE"}
+Get Acumulated Inverse Active Energy: {"operation": "getTIAE"}
       
-Get Acumulated Reactive Energy: {"operation":"getTDRE"}
+Get Acumulated Reactive Energy: {"operation": "getTDRE"}
         
-Get Acumulated Inverse Reactive Energy: {"operation":"getTIRE"}
+Get Acumulated Inverse Reactive Energy: {"operation": "getTIRE"}
 
-Set Date: {"operation":"setDate", "d1":UNIX date}
+Set Date: {"operation": "setDate", "d1": UNIX date}
       
-Set Connection State in Display: {"operation":"setOnline"}
+Set Connection State in Display: {"operation": "setOnline"}
 
 Send Message Via Display(5Sec): {"operation": "setDisplay", "msgl1": (Line 1 String 16 Characters) "msgl2": (Line 2 String 16 Characters)}
       
