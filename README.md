@@ -3,90 +3,90 @@ Example library to use the tools of the eGEO ONE hardware platform
 
 
 
-Request Meter ID: "getID"
+Get Meter ID: "getID"
 
-Request Temperature: "getTemp"
+Get Temperature: "getTemp"
      
-Request Phase A Power: "getPowerA"
+Get Phase A Power: "getPowerA"
 
-Request Phase B Power: "Open getPowerB"
+Get Phase B Power: "Open getPowerB"
 
-Request Phase C Power:  "getPowerC"
+Get Phase C Power:  "getPowerC"
 
-Request Total Power: "getPowerT"
+Get Total Power: "getPowerT"
 
-Request Phase A Reactive Power: "getQPowerA"
+Get Phase A Reactive Power: "getQPowerA"
 
-Request Phase B Reactive Power: "getQPowerB"
+Get Phase B Reactive Power: "getQPowerB"
 
-Request Phase C Reactive Power: "getQPowerC"
+Get Phase C Reactive Power: "getQPowerC"
 
-Request Total Reactive Power: "getQPowerT"
+Get Total Reactive Power: "getQPowerT"
 
-Requesta Fundamental Harmonic Power of Phase A: "getPmeanAF"
+Get Fundamental Harmonic Power of Phase A: "getPmeanAF"
 
-Requesta Fundamental Harmonic Power of Phase B: "getPmeanBF"
+Get Fundamental Harmonic Power of Phase B: "getPmeanBF"
 
-Requesta Fundamental Harmonic Power of Phase C: "getPmeanCF"
+Get Fundamental Harmonic Power of Phase C: "getPmeanCF"
       
-Requesta Total Fundamental Harmonic Power: "getPmeanTF"
+Get Total Fundamental Harmonic Power: "getPmeanTF"
 
-Request Harmonic Power Phase A: "getPmeanAH"
+Get Harmonic Power Phase A: "getPmeanAH"
 
-Request Harmonic Power Phase B: "getPmeanBH"
+Get Harmonic Power Phase B: "getPmeanBH"
 
-Request Harmonic Power Phase C: "getPmeanCH"
+Get Harmonic Power Phase C: "getPmeanCH"
 
-Request Total Harmonic Power: "getPmeanTH"
+Get Total Harmonic Power: "getPmeanTH"
 
-Request RMS Voltage Phase A: "getVoltageA"
+Get RMS Voltage Phase A: "getVoltageA"
 
-Request RMS Current Phase A: "getCurrentA"
+Get RMS Current Phase A: "getCurrentA"
 
-Request RMS Voltage Phase B: "getVoltageB"
+Get RMS Voltage Phase B: "getVoltageB"
 
-Request RMS Current Phase B: "getCurrentB"
+Get RMS Current Phase B: "getCurrentB"
 
-Request RMS Voltage Phase C: "getVoltageC"
+Get RMS Voltage Phase C: "getVoltageC"
 
-Request RMS Current Phase C: "getCurrentC"
+Get RMS Current Phase C: "getCurrentC"
      
-Request RMS Current Phase N: "getCurrentN"
+Get RMS Current Phase N: "getCurrentN"
 
-//Solictar Frecuencia: "getFrequency"
+Get Frequency: "getFrequency"
 
-//Solictar Factor de potencia Total: "getPFT"
+Get Total Power Factor: "getPFT"
 
-//Solictar Factor de potencia Fase A: "getPFA"
+Get Phase A Power Factor: "getPFA"
 
-//Solictar Factor de potencia Fase B: "getPFB"
+Get Phase B Power Factor: "getPFB"
 
-//Solictar Factor de potencia Fase C: "getPFC"
+Get Phase C Power Factor:: "getPFC"
 
-//Solictar Estado de Relay A: "getRelayA"
+Get State of Phase A Relay: "getRelayA"
 
-//Solictar Desconectar Relay A: "disconnectPowerA"
+Disconnect Phase A Relay: "disconnectPowerA"
 
-//Solictar Conectar Relay A: "connectPowerA"
+Connect Phase A Relay: "connectPowerA"
 
-//Solictar Estado de Relay ByC: "getRelayBC"
+Get State of Phase B&C Relay: "getRelayBC"
 
-//Solictar Desconectar Relay ByC: operation,"disconnectPowerBC"
+Disconnect Phase B&C Relay: "disconnectPowerBC"
 
-//Solictar Conectar Relay ByC: "connectPowerBC"
+Connect Phase B&C Relay: "connectPowerBC"
 
-//Solicitar Energa Acumulada activa: "getTDAE"
+Get Acumulated Active Energy: "getTDAE"
 
-//Solicitar Energa Acumulada activa Inversa: "getTIAE"
+Get Acumulated Inverse Active Energy: "getTIAE"
       
-//Solicitar Energa Acumulada Reactiva : "getTDRE"
+Get Acumulated Reactive Energy: "getTDRE"
         
-//Solicitar Energa Acumulada Reactiva Inversa : "getTIRE"
+Get Acumulated Inverse Reactive Energy: "getTIRE"
 
-//SINCORNIZAR FECHA Y HORA: "setDate"
+Set Date(in UNIX): "setDate"
       
-//MOSTRAR QUE SE ESTA CONECTADO EN DISPLAY ONION: "setOnline"
+Set Connection State in Display: "setOnline"
 
-//MENSAJE EN DISPLAY ONION: "setDisplay"
+Send Message Via Display(5Sec): "setDisplay"
       
-//Reiniciar remotamente el PIC: "reboot"
+Reboot Metering Chipset: "reboot"
