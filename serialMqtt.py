@@ -26,7 +26,7 @@ ser = serial.Serial('/dev/ttyS1', 230400, timeout = 0.1)
 client = mqtt.Client()
 client.on_connect = on_connect
 client.on_message = on_message
-client.connect("52.28.163.81")
+client.connect("0.0.0.0")#Server to connect mqtt
 client.loop_start()
 
 while True:
